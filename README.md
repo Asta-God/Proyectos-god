@@ -1,88 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tradiciones Mexicanas - Día de Muertos</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: rgb(0, 0, 0);
-            color: white;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-
-        header {
-            background-color: black;
-            padding: 25px;
-            border-bottom: 3px solid #ff6f00;
-        }
-
-        header h1 {
-            color: #ff6f00;
-            font-size: 2.5em;
-            margin: 0;
-        }
-
-        header h2 {
-            color: #ff3d3d;
-            margin-top: 10px;
-            font-size: 1.3em;
-        }
-
-        .contenedor {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 40px auto;
-            gap: 30px;
-            max-width: 1100px;
-        }
-
-        .cuadro {
-            background-color: #1a1a1a;
-            border: 3px solid #ff6f00;
-            border-radius: 10px;
-            padding: 25px;
-            width: 480px;
-            box-shadow: 0 0 15px #ff3d3d;
-        }
-
-        h3 {
-            color: #ff6f00;
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
-
-        img {
-            width: 100%;
-            border-radius: 8px;
-            margin-bottom: 15px;
-            border: 2px solid #ff3d3d;
-        }
-
-        p {
-            font-size: 1em;
-            line-height: 1.6;
-            text-align: justify;
-        }
-
-        footer {
-            background-color: #ff3d3d;
-            color: white;
-            padding: 12px;
-            margin-top: 40px;
-            font-size: 0.9em;
-        }
-    </style>
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Tradiciones Mexicanas</h1>
         <h2>Día de Muertos y La Catrina</h2>
     </header>
+
     <div class="contenedor">
         <div class="cuadro">
             <h3>💀 Día de Muertos</h3>
@@ -95,6 +26,7 @@
                 Esta tradición mezcla creencias indígenas y católicas, representando la unión entre la vida y la muerte, con alegría y respeto.
             </p>
         </div>
+
         <div class="cuadro">
             <h3>🎩 La Catrina</h3>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkxL8fU7urN7-3ezkbIH0tSjTFfKF7gwOdIw&s" alt="La Catrina">
@@ -108,5 +40,9 @@
             </p>
         </div>
     </div>
+
+    <footer>
+        © 2025 Tradiciones Mexicanas. Todos los derechos reservados.
+    </footer>
 </body>
 </html>
